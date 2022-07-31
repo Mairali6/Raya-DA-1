@@ -1,0 +1,9 @@
+import random,os
+files=os.listdir('universe')
+len(files)//2
+random.choice(files)
+for i in range(len(files)//2):
+    files=os.listdir('universe')
+    choosed_files=random.choice(files)
+    os.remove('universe')
+    
